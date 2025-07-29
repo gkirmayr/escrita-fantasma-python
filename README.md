@@ -83,4 +83,3 @@ Uma vez que o modelo está treinado, você pode gerar frases quantas vezes quise
 * O programa carregará o modelo e exibirá a primeira frase.
 * Pressione **Enter** para gerar uma nova frase ou digite **`sair`** para encerrar.
 
-## 📁 Estrutura do Projeto
