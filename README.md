@@ -1,27 +1,25 @@
- Escritor Fantasma - Gerador de Texto Estilo Markov
-Um projeto em Python que analisa o estilo de escrita de um texto e gera novas frases que imitam esse estilo, baseado em Cadeias de Markov.
+# ✍️ Escritor Fantasma - Gerador de Texto Estilo Markov
+
+> Um projeto em Python que analisa o estilo de escrita de um texto e gera novas frases que imitam esse estilo, baseado em Cadeias de Markov.
 
 Este projeto foi desenvolvido como um exercício prático de Processamento de Linguagem Natural (PLN). Ele é capaz de aprender os padrões de sequência de palavras de qualquer texto em português (um "corpus") e, em seguida, gerar sentenças novas e pseudo-aleatórias que soam como se tivessem sido escritas pelo autor original.
 
-🚀 Funcionalidades
-Módulo de Treinamento (treinar.py): Lê um arquivo de texto grande, processa-o com NLTK e cria um modelo estatístico dos padrões de palavras.
+## 🚀 Funcionalidades
 
-Modelo Persistente: O "cérebro" treinado é salvo em um arquivo (.pkl) usando a biblioteca pickle, evitando a necessidade de retreinar a cada execução.
+* **Módulo de Treinamento (`treinar.py`):** Lê um arquivo de texto grande, processa-o com NLTK e cria um modelo estatístico dos padrões de palavras.
+* **Modelo Persistente:** O "cérebro" treinado é salvo em um arquivo (`.pkl`) usando a biblioteca `pickle`, evitando a necessidade de retreinar a cada execução.
+* **Módulo de Geração (`gerar.py`):** Carrega o modelo pré-treinado e entra em um modo interativo.
+* **Geração Interativa:** Os usuários podem gerar novas frases simplesmente teclando Enter, com a opção de sair digitando 'sair'.
+* **Comprimento de Frase Variável:** As frases geradas têm um comprimento aleatório para parecerem mais naturais.
 
-Módulo de Geração (gerar.py): Carrega o modelo pré-treinado e entra em um modo interativo.
+## 🛠️ Tecnologias Utilizadas
 
-Geração Interativa: Os usuários podem gerar novas frases simplesmente teclando Enter, com a opção de sair digitando 'sair'.
+* **Python 3**
+* **NLTK (Natural Language Toolkit):** Para tokenização de texto (a quebra inteligente de texto em palavras).
+* **Pickle:** Para serialização e desserialização do modelo treinado (salvar e carregar o "cérebro").
 
-Comprimento de Frase Variável: As frases geradas têm um comprimento aleatório para parecerem mais naturais.
+## ⚙️ Como Usar
 
-🛠️ Tecnologias Utilizadas
-Python 3
-
-NLTK (Natural Language Toolkit): Para tokenização de texto (a quebra inteligente de texto em palavras).
-
-Pickle: Para serialização e desserialização do modelo treinado (salvar e carregar o "cérebro").
-
-⚙️ Como Usar
 Siga os passos abaixo para executar o projeto em sua máquina local.
 
 # ✍️ Escritor Fantasma - Gerador de Texto Estilo Markov
